@@ -1,0 +1,112 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "08:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: aws-sdk
+    versions:
+    - 2.833.0
+    - 2.834.0
+    - 2.835.0
+    - 2.836.0
+    - 2.838.0
+    - 2.839.0
+    - 2.840.0
+    - 2.841.0
+    - 2.842.0
+    - 2.843.0
+    - 2.844.0
+    - 2.845.0
+    - 2.846.0
+    - 2.847.0
+    - 2.848.0
+    - 2.849.0
+    - 2.850.0
+    - 2.851.0
+    - 2.852.0
+    - 2.853.0
+    - 2.854.0
+    - 2.855.0
+    - 2.856.0
+    - 2.857.0
+    - 2.858.0
+    - 2.859.0
+    - 2.860.0
+    - 2.861.0
+    - 2.862.0
+    - 2.863.0
+    - 2.864.0
+    - 2.865.0
+    - 2.866.0
+    - 2.867.0
+    - 2.868.0
+    - 2.869.0
+    - 2.870.0
+    - 2.871.0
+    - 2.873.0
+    - 2.874.0
+    - 2.875.0
+    - 2.876.0
+    - 2.878.0
+    - 2.879.0
+    - 2.880.0
+    - 2.881.0
+    - 2.882.0
+    - 2.883.0
+    - 2.884.0
+    - 2.885.0
+    - 2.886.0
+    - 2.887.0
+    - 2.889.0
+    - 2.890.0
+    - 2.891.0
+    - 2.892.0
+    - 2.893.0
+    - 2.894.0
+  - dependency-name: redis
+    versions:
+    - 3.1.2
+  - dependency-name: "@types/ioredis"
+    versions:
+    - 4.19.3
+    - 4.19.4
+    - 4.22.0
+    - 4.22.1
+    - 4.22.2
+    - 4.22.3
+  - dependency-name: "@types/mongodb"
+    versions:
+    - 3.6.10
+    - 3.6.11
+    - 3.6.5
+    - 3.6.6
+    - 3.6.7
+    - 3.6.8
+    - 3.6.9
+  - dependency-name: "@types/jest"
+    versions:
+    - 26.0.20
+    - 26.0.21
+    - 26.0.22
+  - dependency-name: ts-jest
+    versions:
+    - 26.5.0
+    - 26.5.1
+    - 26.5.2
+    - 26.5.3
+    - 26.5.4
+  - dependency-name: mongodb
+    versions:
+    - 3.6.4
+    - 3.6.5
+  - dependency-name: typeorm
+    versions:
+    - 0.2.30
+    - 0.2.31
+  - dependency-name: class-transformer
+    versions:
+    - 0.3.2
